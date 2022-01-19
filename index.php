@@ -167,7 +167,7 @@
     $age = '55';
 
     if (defined($surname) == true) {
-        echo "You can call me " . SURNAME . " " . $name . "." . $m_name . ".";
+        echo "You can call me " . SURNAME . " " . $name . "." . $m_name . ".</br> I'm ". $age." years old";
     } else {
         echo "does not exist";
     }
